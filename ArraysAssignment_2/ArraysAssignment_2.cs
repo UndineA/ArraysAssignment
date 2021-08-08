@@ -59,7 +59,7 @@ namespace ArrayAssignment
                 {
                     if (elements[i] == elements[j])
                     {
-                        Console.WriteLine("\nWord " + elements[i] + " is repeated");
+                        Console.WriteLine("\nNumber " + elements[i] + " is repeated");
                         break;
                     }
                 }
