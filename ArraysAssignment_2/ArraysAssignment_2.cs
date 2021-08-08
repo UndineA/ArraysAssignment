@@ -51,6 +51,19 @@ namespace ArrayAssignment
                 if (elements[i] < averageNum)
                 Console.Write(elements[i] + "\t");
             }
+
+    
+            for (int i = 0; i < elements.Length - 1; i++)
+            {
+                for (int j = i + 1; j < elements.Length; j++)
+                {
+                    if (elements[i] == elements[j])
+                    {
+                        Console.WriteLine("\nWord " + elements[i] + " is repeated");
+                        break;
+                    }
+                }
+            }
         }
     }
 }
